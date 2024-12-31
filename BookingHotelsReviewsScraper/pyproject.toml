@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookingreviewsscraper"
+version = "1"
+description = ""
+authors = ["Omri Marom <omri.marom@mail.huji.ac.il>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pandas = "^2.2.2"
+black = "^24.4.2"
+moncli = "^2.0.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
